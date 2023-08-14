@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerr{
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+
+body::-webkit-scrollbar-track {
+    background: rgb(254, 251, 251);        /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #ff5757; 
+    border-radius: 12px;   /* color of the scroll thumb */
+  }
+
+
+
+
+.box{
+    width: 43%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+
+
+.boximg{
+    object-fit: cover;
+    width: 100%;
+    height: 24vh;
+    border-radius: 20px;
+}
+
+.h3{
+    font-family: 'Noto Sans Vithkuqi', sans-serif !important;
+}
+
+.h5{
+    text-align: center;
+    text-decoration: none !important;
+    color: #000 !important;
+    margin-top: 12px;
+}
+
+.geb{
+    text-align: center;
+    text-decoration: none !important;
+    color: grey !important;
+    margin-top: 8px;
+}
+
+.navbar{
+    position: fixed !important;
+    top: 0px;
+    z-index: 102;
+    width: 100%;
+}
+
+.headerText{
+    font-weight: bolder;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+.fa-solid{
+    position: absolute;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    top: 10%;
+    right: 5px;
+    font-size: 28px;
+    color: #ff5757;
+    
+}
